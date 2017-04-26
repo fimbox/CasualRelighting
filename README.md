@@ -16,17 +16,9 @@ into a given scene, but also re-rendering the scene (or a part of it) with new l
 show the robustness of our approach with real and synthetic examples under a variety of
 lighting conditions and compare them with ground truth data.
 
+Publication:
+Thomas Richter-Trummer, Denis Kalkofen, Jinwoo Park, Dieter Schmalstieg, "Instant Mixed Reality Lighting from Casual Scanning", 2016 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), vol. 00, no. , pp. 27-36, 2016, doi:10.1109/ISMAR.2016.18
+
 bibtex:
-@article{10.1109/ISMAR.2016.18,
-author = {Thomas Richter-Trummer, and Denis Kalkofen, and Jinwoo Park, and Dieter Schmalstieg, and undefined, and undefined, and undefined, and undefined, },
-title = {Instant Mixed Reality Lighting from Casual Scanning},
-journal = {2016 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
-volume = {00},
-number = {},
-issn = {},
-year = {2016},
-pages = {27-36},
-doi = {doi.ieeecomputersociety.org/10.1109/ISMAR.2016.18},
-publisher = {IEEE Computer Society},
-address = {Los Alamitos, CA, USA},
-}
+https://ieeecs-services.computer.org/csdl/citation/proceedings/bibtex/ismar/2016/3641/00/3641a027
+
