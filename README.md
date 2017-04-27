@@ -24,6 +24,5 @@ lighting conditions and compare them with ground truth data.
 
 Thomas Richter-Trummer, Denis Kalkofen, Jinwoo Park, Dieter Schmalstieg, "Instant Mixed Reality Lighting from Casual Scanning", 2016 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), vol. 00, no. , pp. 27-36, 2016, doi:10.1109/ISMAR.2016.18
 
-## bibtex:
-https://ieeecs-services.computer.org/csdl/citation/proceedings/bibtex/ismar/2016/3641/00/3641a027
+[bibtex](https://ieeecs-services.computer.org/csdl/citation/proceedings/bibtex/ismar/2016/3641/00/3641a027)
 
