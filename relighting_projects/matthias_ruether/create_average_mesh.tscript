@@ -1,0 +1,52 @@
+
+/// This script creates an average mesh based on raw input frames
+
+File/Load/Mesh "<SCRIPT_DIR>/trimmed_mesh.bin_mesh" fruits
+"File/Create/Texture Projector" "<SCRIPT_DIR>" 0 0 1.0 1
+
+set MultiTextureProjectorHandle
+set MaxColorProjectionAngle 80
+set ErodePasses 0
+
+set FOVV 56.6
+set FOVH 85.0
+
+set CreateAverageMesh true
+
+// exit
+
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+exit
+
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+set RealignAllFrames true
+set CreateAverageMesh true
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+set RealignAllFrames true
+set CreateAverageMesh true
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+set RealignAllFrames true
+set CreateAverageMesh true
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+set RealignAllFrames true
+set CreateAverageMesh true
+set CalculatePerFrameError true
+set CreateAverageMesh true
+
+exit
+
+/// overrides all current frames!
+set SaveAllFrames "color_frame_"
+set SaveRealignedPoses "pose_frame_"
+
+

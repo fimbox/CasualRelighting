@@ -1,0 +1,8 @@
+y_inverted=true
+average_mesh="average_mesh.bin_mesh"
+create_average_mesh="create_average_mesh.tscript"
+create_average_mesh_no_align="create_average_mesh_no_align.tscript"
+raw_mesh="raw_mesh.bin_mesh"
+root_folder="./"
+specular_solving_average="specular_solving_average.tscript"
+trimmed_mesh="trimmed_mesh.bin_mesh"

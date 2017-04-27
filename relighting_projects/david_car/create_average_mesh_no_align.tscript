@@ -1,0 +1,33 @@
+
+/// This script creates an average mesh based on raw input pictures
+/// it inverts a gamma of 0.7, and overrides the input images with a gamma of 1.0
+
+
+File/Open/Mesh "<SCRIPT_DIR>/raw_mesh.bin_mesh" raw_mesh
+"File/Create/Texture Projector" "<SCRIPT_DIR>" 1257662 1284831 1.0 1
+
+setItemParameter MultiTextureProjectorHandle MaxColorProjectionAngle 80
+setItemParameter MultiTextureProjectorHandle ErodePasses 2
+
+link MultiTextureProjectorHandle "Mesh <SCRIPT_DIR>/trimmed_mesh.bin_mesh"
+
+setItemParameter MultiTextureProjectorHandle XOffset -0,012
+setItemParameter MultiTextureProjectorHandle YOffset 0,013
+
+setItemParameter MultiTextureProjectorHandle FOVV 48.6
+setItemParameter MultiTextureProjectorHandle FOVH 62.0
+
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+//setItemParameter MultiTextureProjectorHandle SubtractSpecularDifferenceFromFrames 0.0
+//setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+exit
+
+setItemParameter MultiTextureProjectorHandle SubtractSpecularDifferenceFromFrames 0.0
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+setItemParameter MultiTextureProjectorHandle SubtractSpecularDifferenceFromFrames 0.0
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+
+

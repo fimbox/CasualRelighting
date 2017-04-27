@@ -1,0 +1,66 @@
+//////////////////////////////////
+///.tscript legacy script
+
+/// This script creates an average mesh based on raw input pictures
+/// it inverts a gamma of 0.7, and overrides the input images with a gamma of 1.0
+
+
+File/Load/Mesh "<SCRIPT_DIR>/trimmed_mesh.bin_mesh" fruits
+"File/Create/Texture Projector" "<SCRIPT_DIR>" 586073 638077 0.7 2
+
+setItemParameter MultiTextureProjectorHandle MaxColorProjectionAngle 80
+setItemParameter MultiTextureProjectorHandle ErodePasses 2
+
+link MultiTextureProjectorHandle "Mesh <SCRIPT_DIR>/trimmed_mesh.bin_mesh"
+
+setItemParameter MultiTextureProjectorHandle XOffset -0.023
+setItemParameter MultiTextureProjectorHandle FOVV 48.6
+setItemParameter MultiTextureProjectorHandle FOVH 62.0
+
+//exit 
+
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+exit 
+
+setItemParameter MultiTextureProjectorHandle CalculatePerFrameError true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+
+setItemParameter MultiTextureProjectorHandle CalculatePerFrameError true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+setItemParameter MultiTextureProjectorHandle RealignAllFrames true
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+exit
+
+/// overrides all current frames!
+setItemParameter MultiTextureProjectorHandle SaveAllFrames "color_frame_"
+setItemParameter MultiTextureProjectorHandle SaveRealignedPoses "pose_frame_"
+
+exit
+

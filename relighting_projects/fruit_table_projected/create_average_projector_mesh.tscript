@@ -1,0 +1,20 @@
+//////////////////////////////////
+///.tscript legacy script
+
+File/Load/Mesh "projector_output_fruits_projected/trimmed_mesh.bin_mesh" fruits
+"File/Create/Texture Projector" "projector_output_fruits_projected" 586073 638077 1.0 2
+
+setItemParameter MultiTextureProjectorHandle MaxColorProjectionAngle 80
+setItemParameter MultiTextureProjectorHandle ErodePasses 2
+
+link MultiTextureProjectorHandle "Mesh projector_output_fruits_projected/trimmed_mesh.bin_mesh"
+
+setItemParameter MultiTextureProjectorHandle XOffset -0.023
+setItemParameter MultiTextureProjectorHandle FOVV 48.6
+setItemParameter MultiTextureProjectorHandle FOVH 62.0
+
+//exit 
+
+setItemParameter MultiTextureProjectorHandle CreateAverageMesh true
+
+
