@@ -19,6 +19,9 @@ lighting conditions and compare them with ground truth data.
 ![](https://raw.githubusercontent.com/fimbox/CasualRelighting/master/doc/img/relighting_title_image.jpg)
 
 # Publication:
+[Instant Relighting ISMAR 2016](https://github.com/fimbox/CasualRelighting/blob/master/doc/Instant_Relighting_ISMAR_2016.pdf)
+
+
 Thomas Richter-Trummer, Denis Kalkofen, Jinwoo Park, Dieter Schmalstieg, "Instant Mixed Reality Lighting from Casual Scanning", 2016 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), vol. 00, no. , pp. 27-36, 2016, doi:10.1109/ISMAR.2016.18
 
 ## bibtex:
