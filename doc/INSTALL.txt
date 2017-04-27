@@ -1,0 +1,6 @@
+
+unzip /libs/python/extern/Python35-32.zip
+unzip /libs/Common/include/boost.rar
+unzip /libs/NUIAccess/extern/microsoft_fusion_1.rar
+unzip /libs/NUIAccess/extern/microsoft_kinect_sdk_1_8.rar
+unzip /libs/ffmpeg/ffmpeg.zip
